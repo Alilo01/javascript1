@@ -87,5 +87,11 @@ let isMember = true;
 let discountMessage = `You ${isMember ? "get" : "do not get"} a discount.`;
 
 console.log(discountMessage); // You get a discount.
+// الحصول على العنصر الذي تريد تعيين نصه
+let element = document.getElementById("myElement");
+
+// تعيين نص المحتوى باستخدام خاصية textContent
+element.textContent = "هذا هو النص الجديد.";
+
 
 ```
